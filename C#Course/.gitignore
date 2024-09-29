@@ -1,0 +1,46 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.user
+*.rsuser
+*.suo
+*.vspx
+*.vspscc
+
+# Ignore Visual Studio 2017 and 2019 folder
+.vs/
+
+# Ignore Rider (JetBrains) IDE specific files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code folder
+.vscode/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore logs
+*.log
+
+# Ignore build configurations
+Debug/
+Release/
+
+# Ignore test result files
+TestResults/
+
+# Ignore dotnet SDK folder
+.dotnet/
+
+# Ignore ReSharper settings
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore other JetBrains specific files
+.idea/
