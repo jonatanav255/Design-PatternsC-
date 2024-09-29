@@ -22,7 +22,8 @@ public class BadBankAccount
         this.balance += amount;
     }
 
-    public void Withdraw(decimal amount){
+    public void Withdraw(decimal amount)
+    {
         if (amount <= 0)
         {
             throw new ArgumentException("Withdrawal amount must be positive");

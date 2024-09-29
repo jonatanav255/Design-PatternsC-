@@ -1,11 +1,12 @@
-﻿BadBankAccount badBankAccount = new BadBankAccount(1000);
+﻿// Vehicle vehicle = new Vehicle();
+Vehicle vehicle = new Vehicle("Honda", 2022);  // This is correct
+Car car = new Car("Toyota", 2021, 4, 4);
 
-System.Console.WriteLine(badBankAccount.GetBalance());
-badBankAccount.Deposit(100);
-System.Console.WriteLine(badBankAccount.GetBalance());
-badBankAccount.Withdraw(400);
-System.Console.WriteLine(badBankAccount.GetBalance());
 
-// badBankAccount.balance = 100;
-
-// System.Console.WriteLine(badBankAccount.balance) ;
+// vehicle.Start();
+// vehicle.Brand = "Toyota";
+car.NumberOfDoors = 20;
+car.Year = 2024;
+// Console.WriteLine(vehicle.Brand);
+// Console.WriteLine($"{vehicle.Brand}, {vehicle.Year}"); 
+Console.WriteLine($"{car.Brand}, {car.Year}, {car.NumberOfDoors} doors, {car.NumberOfWheels} wheels");
