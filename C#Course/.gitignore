@@ -1,6 +1,6 @@
 # Ignore build outputs
-bin/
-obj/
+bin
+obj
 
 # Ignore Visual Studio temporary files, build results, and
 # user-specific files
