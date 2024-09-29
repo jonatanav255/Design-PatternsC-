@@ -3,6 +3,14 @@ public class Vehicle
     public string Brand { get; set; }
     public int Year { get; set; }
 
+    // Parameterless constructor (optional)
+    public Vehicle()
+    {
+        Brand = "Unknown";
+        Year = 0;
+    }
+
+    // Constructor with parameters
     public Vehicle(string brand, int year)
     {
         Brand = brand;
